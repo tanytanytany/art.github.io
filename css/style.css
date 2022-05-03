@@ -557,7 +557,8 @@ textarea.input {
   }
 }
 .main__content {
-  padding: 9.375rem 0 11.5rem 0;
+  padding-bottom: calc(9.375rem + 9.375 * (((100vw - 20rem)) / ((55))));
+  padding-top: calc(9.375rem + 9.375 * (((100vw - 20rem)) / ((55))));
   display: flex;
   justify-content: center;
 }
